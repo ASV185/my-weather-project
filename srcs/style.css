@@ -1,0 +1,183 @@
+img {
+  size: 500px;
+}
+
+h5 {
+  display: block;
+  margin: 0;
+  font-family: "Castoro", serif;
+  color: rgb(233, 8, 121);
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 35px;
+}
+
+.box {
+  color: #1d035a;
+  position: fixed;
+  top: 280px;
+  text-align: center;
+}
+
+.row {
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #2782bb;
+}
+
+h2 i {
+  font-size: 95px;
+}
+
+form {
+  position: fixed;
+  top: 20px;
+  padding: 20px;
+  font-weight: 50px;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  color: rgb(233, 8, 121);
+  font-family: "Castoro", serif;
+  font-weight: bold;
+  opacity: 1;
+  position: fixed;
+  top: 65px;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.temperature {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: #2782bb;
+  font-size: 85px;
+  font-family: "Castoro", serif;
+  font-weight: bold;
+  opacity: 1;
+  position: fixed;
+  top: 20px;
+  left: 460px;
+}
+
+.humidity {
+  display: block;
+  margin: 0;
+  color: #2782bb;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 45px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 800px;
+  opacity: 1;
+  top: 20px;
+  position: fixed;
+  left: 800px;
+}
+
+.wind {
+  display: block;
+  margin: 0;
+  color: #2782bb;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 45px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 800px;
+  opacity: 1;
+  top: 70px;
+  position: fixed;
+  left: 800px;
+}
+
+.description {
+  display: block;
+  margin: 0;
+  color: rgb(233, 8, 121);
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 55px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 150px;
+  opacity: 1;
+  top: 160px;
+  position: fixed;
+  left: 850px;
+}
+p {
+  display: block;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-family: "Castoro", serif;
+  font-weight: 900px;
+  font-size: 35px;
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  padding: 20px auto;
+}
+
+.units {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: #2782bb;
+  font-size: 75px;
+  font-family: "Castoro", serif;
+  font-weight: bold;
+  opacity: 1;
+  position: fixed;
+  top: 20px;
+  left: 550px;
+}
+
+h4 {
+  color: rgb(233, 8, 121);
+  font-family: "Castoro", serif;
+  position: fixed;
+  left: 160px;
+  bottom: 0.5px;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+li {
+  display: block;
+  margin: 0;
+  color: blueviolet;
+  position: fixed;
+  font-family: "Castoro", serif;
+  font-size: 40px;
+  opacity: 1;
+  top: 150px;
+  left: 165px;
+  font-weight: bold;
+}
+
+.container span button {
+  display: block;
+  margin: 0;
+  position: fixed;
+  font-family: "Anton", sans-serif;
+  font-family: "Castoro", serif;
+  top: 210px;
+  left: 170px;
+  font-size: 23px;
+  font-weight: bold;
+}

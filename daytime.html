@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/df69181b0b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap" rel="stylesheet">
+  <link rel= "preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro:ital@1&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+ 
+  <title>ParcelSandbox</title>
+  <link rel="stylesheet" href="srcs/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <img src="images/LongestDay.jpg" alt= "background-image" class="night" width= "1125"/>
+      
+          <form id="search-form">
+            <input type= "text" id= "city-input"/>
+            <button type= "button" id="search" class= "btn btn-light">Search</button>
+          </form>
+          <h1 id="city">
+            El Paso,Tx
+          </h1>
+          <span class="location">
+          <button type= "button" class="btn btn-primary" id="current-location-button">Current Location</button>
+          </span>
+          <ul>
+            <li id="date">
+            </li>
+          </ul>
+          <h4>
+            <a href="index.html">
+              Night time
+            </a>
+          </h4>
+        
+        <div class= "card" style="width:15rem;">
+          <div class= "col-3">
+          <span class="temperature" id="temperature">
+            
+          </span>
+          <span class="units">
+            <a href="#" class= "celsius-link" id="celsius-link">℃</a>|
+            <a href="#" id="fahrenheit-link">℉</a>
+          </div>
+        <ul>
+          <br/>
+          <li class="humidity">Humidity:<span id="humidity"></span>%</li>
+          <br/>
+          <li class="wind">Wind:<span id="wind"></span>km/h</li>
+          <br/>
+          <li class="description"><span id="description"></span></li>
+        </ul>
+    
+    <span class= "box">
+      <div class= "row">
+        <div class= "card" style= "width:15rem;">
+          <div class= "col-6">
+            <h5 class="card-title">Mon</h5>
+            <p class= "card-text">
+              78℉
+            </p>
+            <img src= "images/sun&cloud.jpg" alt="sun&cloud" class= "suncloudy" width="90">
+          </div>
+        </div>
+        <div class= "card" style= "width:14rem;">
+          <div class= "col-6">
+            <h5 class= "card-title">Tue</h5>
+            <p class= "card-text">
+              69℉
+            </p>
+           <img src= "images/cloudy.jpg" alt="cloudy" class= "cloudy" width= "90">
+          </div>
+        </div>
+        <div class="card" style= "width:14rem;">
+          <div class= "col-6">
+            <h5 class="card-title">Wed</h5>
+            <p class= "card-text">
+              67℉
+            </p>
+           <img src= "images/sunny.jpg" alt= "sunny-icon" class= "sunny" width="90">
+          </div>
+        </div>
+        <div class= "card" style= "width:14rem;">
+          <div class= "col-6">
+            <h5 class= "card-title">Thur</h5>
+            <p class= "card-text">
+              70℉
+            </p>
+            <img src= "images/sun&cloud.jpg" alt= "sun&cloud" class= "suncloudy" width= "90">
+          </div>
+        </div>
+        <div class= "card" style= "width:16rem;">
+          <div class= "col-5">
+            <h5 class= "card-title">Fri</h5>
+            <p class= "card-text">
+            66℉
+            </p>
+            <img src= "images/sun&cloud.jpg" alt= "sun&cloud" class= "suncloudy" width= "90">
+          </div>
+        </div>
+      </span>
+    </div>
+  <script src="src/index.js"></script>
+</body>
+</html>

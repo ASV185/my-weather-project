@@ -1,0 +1,204 @@
+img {
+  size: 500px;
+}
+
+h5 {
+  display: block;
+  margin: 0;
+  font-family: "Castoro", serif;
+  color: blueviolet;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 35px;
+}
+
+.box {
+  color: #1d035a;
+  position: fixed;
+  top: 280px;
+  text-align: center;
+}
+.row {
+  opacity: 0.9;
+  border-radius: 20px;
+  text-align: center;
+  position: fixed;
+}
+.card {
+  background-color: navy;
+}
+
+form {
+  position: fixed;
+  top: 20px;
+  padding: 20px;
+  font-weight: 50px;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  color: blueviolet;
+  font-family: "Castoro", serif;
+  font-weight: bold;
+  opacity: 1;
+  position: fixed;
+  top: 65px;
+  padding: 20px;
+  font-size: 50px;
+}
+
+.units {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: rgb(4, 4, 231);
+  font-size: 70px;
+  font-family: "Castoro", serif;
+  font-weight: bold;
+  opacity: 1;
+  position: fixed;
+  top: 20px;
+  left: 500px;
+}
+
+.humidity {
+  display: block;
+  margin: 0;
+  color: #1375b3;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 50px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 900px;
+  opacity: 1;
+  top: 20px;
+  position: fixed;
+  left: 800px;
+}
+
+.wind {
+  display: block;
+  margin: 0;
+  color: #1375b3;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 50px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 900px;
+  opacity: 1;
+  top: 70px;
+  position: fixed;
+  left: 800px;
+}
+
+.description {
+  display: block;
+  margin: 0;
+  color: blueviolet;
+  text-align: right;
+  margin: 20px;
+  padding: 80px auto;
+  font-size: 55px;
+  bottom: 30px;
+  font-family: "Castoro", serif;
+  font-weight: 150px;
+  opacity: 1;
+  top: 160px;
+  position: fixed;
+  left: 850px;
+}
+
+p {
+  display: block;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  font-family: "Castoro", serif;
+  font-weight: 900px;
+  font-size: 35px;
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  padding: 20px auto;
+}
+
+h4 {
+  color: navy;
+  font-family: "Castoro", serif;
+  position: fixed;
+  left: 160px;
+  bottom: 0.5px;
+  padding: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+li {
+  display: block;
+  margin: 0;
+  color: white;
+  font-family: "Castoro", serif;
+  position: fixed;
+  font-size: 35px;
+  opacity: 1;
+  top: 150px;
+  left: 170px;
+  font-weight: bold;
+}
+
+i {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: rgb(4, 4, 231);
+  font-size: 90px;
+  font-family: "Castoro", sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  top: 130px;
+  position: fixed;
+  left: 530px;
+}
+.temperature {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: rgb(4, 4, 231);
+  font-size: 85px;
+  font-family: "Castoro", sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  top: 23px;
+  left: 450px;
+  position: fixed;
+}
+.units {
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: rgb(4, 4, 231);
+  font-size: 75px;
+  font-family: "Castoro", sans-serif;
+  font-weight: bold;
+  opacity: 1;
+  top: 20px;
+  left: 550px;
+  position: fixed;
+}
+.container span button {
+  display: block;
+  margin: 0;
+  position: fixed;
+  font-family: "Anton", sans-serif;
+  font-family: "Castoro", serif;
+  top: 210px;
+  left: 165px;
+  font-size: 23px;
+  font-weight: bold;
+  color: blue;
+}
